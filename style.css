@@ -1,0 +1,104 @@
+/*Colors and fonts*/
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	background-color: #9e8b69;
+	color: black;
+	font-size: 22px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+	font-size: 50px;
+	color: #9e8b69;
+	font-weight: 700; 
+}
+h2 {
+	font-size: 35px
+	font-weight:400;
+}
+h3 {
+	font-size: 30px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: #a3bfcd;
+}
+a:hover {
+	color:#9e8b69;
+}
+
+div {
+	background: white;
+	padding:60px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+}
+
+/*Custom design with class*/
+
+#photodeprofil {
+	height: 200px;
+	width: 200px;
+	object-fit: cover;
+	border-radius: 100px;
+	box-shadow: 0 0 20px rgba(000,000,000,.5)
+}
+
+.card-white {
+	background: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0)
+	padding:40px;
+	border-radius: 4px;
+}
+
+.btn-black {
+	background: black;
+	color: white;
+	border-radius: 4px;
+	padding: 20px 25px;
+}
+
+.btn-black:hover {
+	background-color: #9e8b69;
+	color: white;
+}
+
+.list-inline {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 70px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover{
+	color: #9e8b69;
+}
+
+.card-white p,.card-white p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
